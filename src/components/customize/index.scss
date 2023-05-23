@@ -1,0 +1,62 @@
+#drag-1,
+#drag-2 {
+  border-radius: 50%;
+  position: absolute;
+  padding: 5px;
+  z-index: 3;
+  transform: translate(0px, 0px);
+  top: 0;
+}
+.left__controll,
+.right__controll {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.right-pupil,
+.left-pupil {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3189f4;
+}
+.controll_btn {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  position: absolute;
+  cursor: pointer;
+  outline: solid 1px #3189f4 -2px;
+}
+.btn_left {
+  border-left: 0;
+  border-right: 15px solid rgba(255, 255, 255, 0.196);
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn_right {
+  border-right: 0;
+  border-left: 15px solid rgba(255, 255, 255, 0.196);
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn_up {
+  border-top: 0;
+  border-bottom: 15px solid rgba(255, 255, 255, 0.196);
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn_down {
+  border-bottom: 0;
+  border-top: 15px solid rgba(255, 255, 255, 0.196);
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
